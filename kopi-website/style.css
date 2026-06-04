@@ -195,3 +195,25 @@ html {
     font-size: 15px;
     color: #2c1a0e;
 }
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 16px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
